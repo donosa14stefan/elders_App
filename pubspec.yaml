@@ -1,0 +1,56 @@
+name: elderly_app
+description: A new Flutter application.
+version: 1.1.0+2
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^3.0.1
+  flutter_spinkit: ^5.1.0
+  font_awesome_flutter: ^10.1.0
+  connectivity_plus: ^3.0.3
+  flutter_signin_button: ^2.0.0
+  firebase_core: ^2.10.0
+  firebase_auth: ^4.4.0
+  shared_preferences: ^2.0.15
+  path_provider: ^2.0.11
+  sqflite: ^2.0.0+4
+  intl: ^0.18.0
+  http: ^0.13.5
+  geolocator: ^9.0.2
+  modal_progress_hud_nsn: ^0.2.0
+  sweet_alert_dialogs: ^0.2.0
+  location: ^4.4.0
+  flutter_android: ^0.4.0
+  flutter_material_pickers: ^2.0.0
+  image_picker: ^0.8.7+4
+  permission_handler: ^10.2.0
+  url_launcher: ^6.1.7
+  get_it: ^8.0.0
+  flutter_sms: ^2.0.0+3
+  flutter_staggered_grid_view: ^0.6.1
+  flutter_beautiful_popup: ^1.5.0
+  firebase_ml_vision: ^0.10.0
+  path: ^1.8.2
+  cloud_firestore: ^4.7.1
+  mlkit: ^0.16.0
+  google_sign_in: ^6.1.0
+  firebase_storage: ^11.0.16
+  flutter_downloader: ^1.8.6
+  android_alarm_manager: ^0.6.0
+  flutter_local_notifications: ^12.0.4
+  jitsi_meet: ^0.8.0
+  charts_flutter: ^0.12.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/resources/images/
+    - assets/images/
